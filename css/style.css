@@ -344,7 +344,7 @@ Contact Section */
     padding: 1.5rem 0;
     background-color: #12141c;
 }
-.copy span {
+.copy a {
     color: var(--main-color);
 }
 .top {
