@@ -22,3 +22,14 @@ window.onscroll = () => {
     }
 }
 
+const sr = ScrollReveal ({
+    distance: '25px',
+    duration: 2500,
+    reset: true
+})
+
+sr.reveal('.home-text',{delay: 190, origin: 'bottom'});
+sr.reveal('.service, .portfolio, .copy',{delay: 100, origin: 'bottom'});
+sr.reveal('.about-img, .contact-text',{delay: 100, origin: 'left'});
+sr.reveal('.about-text, .contact-form',{delay: 100, origin: 'right'});
+
